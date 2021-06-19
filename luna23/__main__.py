@@ -11,7 +11,7 @@ def main():
 
     my_function('hello world')
 
-    my_object = MyClass('Luiz')
+    my_object = MyClass('{}'.format(args[0]))
     my_object.say_name()
 
 
