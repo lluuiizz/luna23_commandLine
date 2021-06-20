@@ -1,14 +1,16 @@
 import json
 # Import a json file with all characters replacements.
-f = open('data.json')
-encrypt = json.load(f[encrypt])
-decrypt = json.load(f[decrypt])
+with open("data.json") as file:
+    encrypt = json.load(file)["encrypt"]
+with open("data.json") as file:
+    decrypt = json.load(file)["decrypt"]
+
 def encrypt(text_to_encrypt):
     '''print('text from my_function :: {}'.format(text_to_encrypt))'''
-    print(encrypt)
-    print('OUTPUT: ' + output_text)
+    print('encrypt')
 def decrypt(text_to_decrypt):
     '''print('text from my_function :: {}'.format(text_to_decrypt))'''
+    print('decrypt')
 
 
 

@@ -1,10 +1,6 @@
 import sys 
 from .classmodule import MyClass
 from .funcmodule import encrypt
-from .funcmodule import decrypt
-
-
-
 def main():
     args = sys.argv[1:]
     if args != []:
