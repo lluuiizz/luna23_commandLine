@@ -1,8 +1,8 @@
 import json
 # Import a json file with all characters replacements.
-with open('data.json', 'r') as arq_encrypt:
+with open('/home/luiz/Documents/github/Python/luna23_commandLine/luna23/data.json', 'r') as arq_encrypt:
     encrypt = json.load(arq_encrypt)['encrypt']
-with open('data.json', 'r') as arq_decrypt:
+with open('/home/luiz/Documents/github/Python/luna23_commandLine/luna23/data.json', 'r') as arq_decrypt:
     decrypt = json.load(arq_decrypt)['decrypt']
 
 
