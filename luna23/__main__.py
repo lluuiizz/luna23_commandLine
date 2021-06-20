@@ -1,5 +1,4 @@
 import sys 
-from .classmodule import MyClass
 from .funcmodule import encrypt_text
 from .funcmodule import decrypt_text
 def main():
