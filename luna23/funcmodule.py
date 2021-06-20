@@ -16,7 +16,7 @@ def encrypt_text(text_to_encrypt):
     while i < len(text_to_encrypt):
         output_text = output_text + encrypt[text_to_encrypt[i]]
         i += 1
-    print("―――――――――――――――――――――――――――――――\nOUTPUT: "+output_text)
+    print("\n\nOUTPUT: "+output_text+'\n────────────────────────────────────────')
 
 
 def decrypt_text(text_to_decrypt):
@@ -25,5 +25,5 @@ def decrypt_text(text_to_decrypt):
     while i < len(text_to_decrypt):
         output_text = output_text + decrypt[text_to_decrypt[i]]
         i += 1
-    print("―――――――――――――――――――――――――――――――\nOUTPUT: "+output_text)
+    print("\n\nOUTPUT: "+output_text+'\n────────────────────────────────────────')
 
