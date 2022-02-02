@@ -47,7 +47,7 @@ You have tree choices of arguments: encrypt, decrypt and info. Who you can type 
 The sequence after pass encrypt or decrypt like arguments are very similar. For example:
 ```bash
   $ luna23 encrypt
-  INPUT: <here you type something, for example: HELLO WORLD>
+  INPUT: (here you type something, for example: HELLO WORLD)
 
   OUTPUT: POXXS QSJXH
   ────────────────────────────────────────
@@ -55,7 +55,7 @@ The sequence after pass encrypt or decrypt like arguments are very similar. For 
 Another example now but passing decrypt like argument:
 ```bash
   $ luna23 decrypt
-  INPUT: <here you type something, for example: POXXS QSJXH>
+  INPUT: )here you type something, for example: POXXS QSJXH)
 
   OUTPUT: HELLO WORLD
   ────────────────────────────────────────
