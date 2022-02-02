@@ -4,25 +4,6 @@
 Encrypts and decrypts texts entered for/in luna23 encryption format. It was created to automate the boring character replacement task.
 
 
-## Installing
-
-Clone the project
-
-```bash
-  $ git clone https://github.com/luizguilhermegzg/luna23_commandLine.git
-```
-
-Go to the project directory
-
-```bash
-  $ cd luna23_commandLine
-```
-
-Install the package
-
-```bash
-  $ pip install -e .
-```
 
 ## Installation 
 
